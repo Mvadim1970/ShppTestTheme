@@ -31,4 +31,13 @@
         android:layout_below="@+id/btn_dog2"
         android:layout_centerHorizontal="true"
         android:text="@string/taxes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:id="@+id/btn_dog4"
+        android:layout_below="@+id/btn_dog3"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
