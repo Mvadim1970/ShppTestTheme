@@ -2,10 +2,21 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:textColor">#FF0000</item>
+        <item name="android:buttonStyle">@style/ColorButton</item>
+        <!--<item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorButtonNormal">@color/blue_dark</item>
+        <item name="colorAccent">@color/blue</item>-->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
 
+    <style name="ColorButton" parent="android:Widget.DeviceDefault.Button">
+        <item name="android:background">@drawable/select</item>
+        <item name="android:padding">16dip</item>
+    </style>
 
-
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="android:windowActionBar"></item>-->
     </style>
 
 </resources>
